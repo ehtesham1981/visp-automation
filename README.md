@@ -27,18 +27,52 @@ For Microsoft Windows:
 
 ``` wdio wdio.conf.js ```
 
+Ensure Selenium Standalone is already runnnig
+
+``` java -Dwebdriver.chrome.driver=c:/chromedriver.exe -jar selenium-server-standalone-3.3.1.jar ```
+
 ## Folder structure
 
 ```
 ..features/
 	steps/
 	support/
-	pageobjects
+	pageobjects/
 
 ```
 
 
 ## Installation
+
+Java should be installed on machine
+
+* Install NodeJS
+
+* Install nodejs  (preferred v6.10.2 LTS)
+
+* At ‘features’ folder level, Install webdriverio locally 
+
+	```npm install webdriverio –s-save-dev```
+	
+	Verify that you can see ‘wdio’ file under node_modules
+	
+* Install Cucumber 
+
+	```npm install cucumber –save-dev ```
+	
+* Download Selenium-standalone server 
+
+* Download desired browsers driver e.g. chromedriver.exe (for Windows)
+
+* Install wdio-cucumber framework
+
+	```npm install wdio-cucumber-framework –save-dev```
+	
+* Set up Chai as assertion library 
+
+	```npm install chai –save-dev```
+
+
 
 
 
