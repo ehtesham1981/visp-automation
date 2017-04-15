@@ -1,5 +1,5 @@
 # visp-automation
-UI Automation suite for UBO
+UI Automation suite for UBO web 8.0
 
 ## Includes
 
