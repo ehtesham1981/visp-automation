@@ -10,7 +10,7 @@ Chai
 
 Check package.json for version
 
-##Initialization
+## Initialization
 
 Install Java
 Install NodeJS
