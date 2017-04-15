@@ -17,6 +17,8 @@ Check package.json for version
 * Install NodeJS
 * Install Git
 
+Java is required to run Selenium Standalone
+
 For Microsoft Windows:
 
 ```npm install --global --production windows-build-tools```
@@ -24,4 +26,19 @@ For Microsoft Windows:
 ## Running the suite
 
 ``` wdio wdio.conf.js ```
+
+## Folder structure
+
+```
+..features/
+		steps/
+		support/
+		pageobjects
+
+```
+
+
+## Installation
+
+
 
