@@ -31,9 +31,9 @@ For Microsoft Windows:
 
 ```
 ..features/
-		steps/
-		support/
-		pageobjects
+	steps/
+	support/
+	pageobjects
 
 ```
 
