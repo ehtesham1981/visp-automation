@@ -46,8 +46,6 @@ Ensure Selenium Standalone is already runnnig
 
 Java should be installed on machine
 
-* Install NodeJS
-
 * Install nodejs  (preferred v6.10.2 LTS)
 
 * At ‘features’ folder level, Install webdriverio locally 
