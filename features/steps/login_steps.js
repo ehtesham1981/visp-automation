@@ -11,7 +11,7 @@ module.exports = function given() {
   });
 
   
-  this.When('I fillout in login as "$string" and password as "$string"', function(login, password) {
+  this.When('I fillout in login as "$username" and password as "$password"', function(login, password) {
     
 	  
 	  LoginPage.username.waitForExist();
