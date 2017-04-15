@@ -4,9 +4,13 @@ UI Automation suite for UBO
 ## Includes
 
 WebdriverIO
+
 CucumberJS
+
 Selenium Standalone server
+
 Chai
+
 
 Check package.json for version
 
