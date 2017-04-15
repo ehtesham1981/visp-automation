@@ -50,13 +50,13 @@ Java should be installed on machine
 
 * At ‘features’ folder level, Install webdriverio locally 
 
-	```npm install webdriverio –s-save-dev```
+	```npm install webdriverio --save-dev```
 	
 	Verify that you can see ‘wdio’ file under node_modules
 	
 * Install Cucumber 
 
-	```npm install cucumber –save-dev ```
+	```npm install cucumber --save-dev ```
 	
 * Download Selenium-standalone server 
 
@@ -64,11 +64,11 @@ Java should be installed on machine
 
 * Install wdio-cucumber framework
 
-	```npm install wdio-cucumber-framework –save-dev```
+	```npm install wdio-cucumber-framework --save-dev```
 	
 * Set up Chai as assertion library 
 
-	```npm install chai –save-dev```
+	```npm install chai --save-dev```
 
 
 
