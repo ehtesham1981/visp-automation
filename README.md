@@ -21,3 +21,7 @@ For Microsoft Windows:
 
 ```npm install --global --production windows-build-tools```
 
+## Running the suite
+
+``` wdio wdio.conf.js ```
+
