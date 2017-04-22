@@ -37,13 +37,32 @@ module.exports = function given() {
   this.Then('I see subscriber list', function() {
 	  
    			
-		setTimeout(function() { // manual delay to allow header change from dashboard to subscribers
+		
 
-		SubListPage.pageheader.waitForExist();
-		SubListPage.pageheader.waitForVisible();
-		expect(SubListPage.pageheader.getText()).to.eql('Subscribers');
+			SubListPage.Sublist_ribbon.waitForExist();
+			SubListPage.Sublist_ribbon.waitForVisible();
+			expect(SubListPage.Sublist_ribbon.getText()).to.eql('Subscribers List');
+	
 
-		}, 2000);
+		
+		
+		
+  });
+  
+  this.Then('I see "$btn" button', function(btn_name) {
+	  
+   			
+		
+
+			SubListPage.btn_PaidUp.waitForExist();
+			
+			
+			SubListPage.btn_PaidUp.isVisible();
+			
+			expect(SubListPage.btn_PaidUp.getText()).to.eql('Paid Up');
+				
+		
+		
 		
 		
   });

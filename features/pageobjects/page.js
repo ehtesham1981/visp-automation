@@ -4,6 +4,12 @@ class Page {
 		this.title = 'My Page';
 	}
 	open(path) {
+		
+		/* var handle = browser.windowHandle();
+		
+		browser.windowHandleMaximize(handle); */
+				
+		
 		browser.url('/' + path);
 	}
 }

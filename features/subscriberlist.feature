@@ -7,4 +7,7 @@ Feature: Subscriber list
 
   Scenario: As a user, I can navigate to subscriber list
 			When I navigate to subscriber list
-			Then I see subscriber list 	
+			Then I see subscriber list 
+			Then I see "Paid Up" button
+			
+			

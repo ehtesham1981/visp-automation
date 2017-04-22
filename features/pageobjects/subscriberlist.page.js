@@ -4,8 +4,9 @@ var Page = require('./page')
 class SubscriberListPage extends Page {
     get subscribersmenu()  { return browser.element('#left-panel > nav > ul > li:nth-child(2) > a > span > span'); }
     get subscriberslistmenu() { return browser.element('#left-panel > nav > ul > li.open > ul > li > a > span > span'); }
-	get pageheader()    {return browser.element('#content > div > div.col-xs-12.col-sm-7.col-md-7.col-lg-4.big-breadcrumbs > h1');}
-	
+	get Sublist_ribbon()    {return browser.element('#ribbon > ol > li:nth-child(2)');}
+	get btn_PaidUp()    {return browser.element('#tbl-subscribers_wrapper > div.dt-toolbar > div.col-xs-12.col-sm-9 > div > a:nth-child(2) > span');}
+	get btn_Due()    {return browser.element('#tbl-subscribers_wrapper > div.dt-toolbar > div.col-xs-12.col-sm-9 > div > a:nth-child(3) > span');}
     
     open() {
         super.open('login');
