@@ -145,7 +145,7 @@ exports.config = {
             outputDir: 'allure-results'
         }
     }, */
-   //services: ['phantomjs'],
+    services: ['phantomjs'],
     //
     // =====
     // Hooks
