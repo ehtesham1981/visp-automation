@@ -16,8 +16,8 @@ exports.config = {
     exclude: [
         './exclude/**/*.feature'
     ],
-    user: 'ehteshamalgomade1',
-    key: 'z7usgqm8dzkCEdcMDx94',
+    //user: 'ehteshamalgomade1',
+    //key: 'z7usgqm8dzkCEdcMDx94',
     //
     // ============
     // Capabilities
