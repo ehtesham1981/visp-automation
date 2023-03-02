@@ -5,7 +5,6 @@ UI Automation suite for UBO web
 
 * WebdriverIO
 * CucumberJS
-* Selenium Standalone server
 * Chai
 
 
